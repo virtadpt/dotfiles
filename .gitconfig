@@ -1,0 +1,6 @@
+[user]
+	email = drwho@virtadpt.net
+	name = The Doctor
+	signingkey = 0x807B17C1
+[push]
+	default = simple

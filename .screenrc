@@ -1,0 +1,10 @@
+# Terminal 0.
+screen -t "System monitor" htop
+
+# Terminal 1.
+screen -t "Network traffic" slurm -d5 -i wlan0 
+
+# Start some shells.
+screen -t shell
+screen -t shell
+

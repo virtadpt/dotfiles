@@ -1,0 +1,53 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+#alias ls='lsd'
+#alias vi='vim'
+alias grep='grep --color=auto'
+alias mp3-dl='yt-dlp -x --audio-format mp3'
+alias mirror='wget --recursive --page-requisites --convert-links --no-parent -e robots=off --random-wait -w 20 -nc'
+alias less='less -X'
+alias serve="python3 -mhttp.server"
+alias pingscan='sudo nmap -sn -n -T4'
+alias holdmybeer='sudo'
+alias please='sudo'
+alias portscan='sudo nmap -sS -F -sV -O -T4 -v'
+alias df='df -x tmpfs'
+alias ripgrep='rg'
+
+#PS1='[\u@\h:($WINDOW) \W]\$ '
+# {hh:mm:ss @ day-of-week mon day}
+# [username @ host ($WINDOW) dir]$ 
+export PS1="\[\033[38;5;220m\]{\[$(tput sgr0)\]\[\033[38;5;214m\]\t\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;75m\]@\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;220m\]\d}\[$(tput sgr0)\]\[\033[38;5;15m\]\n\[$(tput sgr0)\]\[\033[38;5;40m\][\u\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;75m\]@\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;40m\]\h:($WINDOW)\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;40m\]\W]\[$(tput sgr0)\]\[\033[38;5;10m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
+
+export PATH=$PATH:$HOME/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+#export XDG_RUNTIME_DIR=/run/user/$UID
+export NEXT_TELEMETRY_DISABLED=1
+
+# Set my text editor default.
+export EDITOR=/usr/bin/vim
+export VISUAL=/usr/bin/vim
+
+# How about some system stats?
+#fastfetch
+
+# Add my cargo directory to the path.
+#export PATH="$PATH:$HOME/.cargo/bin"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable
+# change.
+#export PATH="$PATH:$HOME/.rvm/bin"
+
+[ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
+source /usr/share/git/completion/git-completion.bash
+
+# Set the $TZ environment variable to streamline things a little.
+export TZ='America/Los_Angeles'
+

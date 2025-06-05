@@ -1,7 +1,7 @@
 # dotfiles
 My shell dotfiles, managed with [chezmoi](https://www.chezmoi.io/).
 
-On a box, this repo gets cloned into __.local/share/chezmoi__ by `chezmoi`.
+On a box, this repo gets cloned into _.local/share/chezmoi_ by `chezmoi`.
 
 Files were added with `chezmoi add ~/path/to/foo`
 

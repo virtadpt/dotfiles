@@ -1,0 +1,47 @@
+# Make the default login shell bash.
+shell "/usr/bin/bash"
+defshell -bash
+
+# no annoying audible bell, please
+vbell on
+
+# detach on hangup
+autodetach on
+
+# don't display the copyright page
+startup_message off
+
+# 2000 lines of scrollback should be fine to start with.
+defscrollback 2000
+
+# Automatically clear the screen when disconnected from a session.
+autonuke on
+
+# Set a persistent caption bar at the bottom of the terminal.
+shelltitle '$ |sh'
+caption always '%{= kw} %-Lw%{+b M}%n%f* %t%{-}%+LW %=%{-}'
+
+################
+
+# Terminal 0.
+screen -t "htop" htop
+
+# Terminal 1.
+screen -t "bwm-ng" bwm-ng -d -o curses2
+
+# Terminal 2.
+screen -t "iostat" iostat -d -h -s -z 1
+
+# Terminal 3.
+screen -t "iotop" iotop -d 5 -o -2 -6 -8
+
+# Terminal 4.
+screen -t "nvitop" nvitop
+
+# Start some shells.
+screen -t shell
+screen -t shell
+screen -t shell
+screen -t shell
+screen -t shell
+

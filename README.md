@@ -21,5 +21,7 @@ chezmoi doesn't set up the remote for you, so you have to do it yourself:
 * `git pull origin main`
 * `exit`
 
-On Linux and OSX boxen, the local copy of your dotfiles gets cloned into `~/.local/share/chezmoi`
+Run `chezmoi diff` to get a diff-style outline of all of the file changes that will be made.
+
+Run `chezmoi apply` to copy all of the files out of the repo into their proper places in your home directory.
 

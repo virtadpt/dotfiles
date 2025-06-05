@@ -17,8 +17,8 @@ chezmoi doesn't set up the remote for you, so you have to do it yourself:
 
 * `chezmoi cd`
 * `git remote add origin git@github.com:$GITHUB_USERNAME/dotfiles.git`
-* `git branch --set-upstream-to=origin/main main`
 * `git pull origin main`
+* `git branch --set-upstream-to=origin/main main`
 * `exit`
 
 Run `chezmoi diff` to get a diff-style outline of all of the file changes that will be made.

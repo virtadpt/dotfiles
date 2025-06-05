@@ -1,0 +1,28 @@
+[user]
+    name = 
+    email = 
+
+[init]
+    defaultBranch = main
+
+[pushl]
+    default = simple
+
+[push]
+    autoSetupRemote = true
+
+[pull]
+    rebase = false
+
+[alias]
+    conflict = !git diff --name-only --diff-filter=U --relative
+    dumbass = !git blame
+    harder = --force
+    pushall = !git remote | xargs -L1 -P0 git push --all --follow-tags
+    undo = reset HEAD~1 --mixed
+    yeet = push
+    yoink = pull
+
+[core]
+    editor = vim
+

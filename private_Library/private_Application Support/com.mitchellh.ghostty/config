@@ -1,0 +1,25 @@
+background = #000000
+background-opacity = 0.7
+clipboard-trim-trailing-spaces = true
+cursor-style = block
+font-size = 17
+scrollback-limit = 1024
+shell-integration-features = no-cursor
+window-height = 26
+window-width = 80
+
+# Change to previous or next tab with cmd (or win)+left or right
+keybind = command+left=previous_tab
+keybind = command+right=next_tab
+
+# Move the current tab left or right.
+keybind = command+shift+left=move_tab:-1
+keybind = command+shift+right=move_tab:+1
+
+# Scroll back with shift+page [up,down]
+keybind = shift+page_up=scroll_page_up
+keybind = shift+page_down=scroll_page_down
+
+# Please make Home and End sane again.
+#keybind = home=unbind
+#keybind = end=unbind

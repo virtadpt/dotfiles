@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AIAlwaysUpdateToBetas</key>
+	<true/>
+	<key>AIEarliestLaunchedAdiumVersion</key>
+	<string>1.5.10</string>
+	<key>Adium 1.0.3 moved to libpurple</key>
+	<true/>
+	<key>Adium 1.2.4 deleted blist.xml</key>
+	<true/>
+	<key>Adium 1.3.3:Reimported Spotlight Logs</key>
+	<true/>
+	<key>Adium 1.3: Account Passwords Upgraded</key>
+	<true/>
+	<key>Adium:Account Prefs Upgraded for 1.0</key>
+	<true/>
+	<key>Adium:Installed Adress Book Actions 1.3</key>
+	<true/>
+	<key>Adium:Last Icon Update Version</key>
+	<string>1.5.10.4</string>
+	<key>Confirmed Plugin Version</key>
+	<string>1.5.10</string>
+	<key>IKPictureTakerLocation</key>
+	<string>{300, 309}</string>
+	<key>NSNavLastRootDirectory</key>
+	<string>~/Documents</string>
+	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{800, 448}</string>
+	<key>NSSplitView Subview Frames AdiumMessageView</key>
+	<array>
+		<string>0.000000, 0.000000, 715.000000, 464.000000, NO, NO</string>
+		<string>0.000000, 465.000000, 715.000000, 63.000000, NO, NO</string>
+	</array>
+	<key>NSSplitView Subview Frames LogViewer:Contacts</key>
+	<array>
+		<string>0.000000, 0.000000, 177.000000, 538.000000, NO, NO</string>
+		<string>178.000000, 0.000000, 593.000000, 538.000000, NO, NO</string>
+	</array>
+	<key>NSSplitView Subview Frames LogViewer:Shelf</key>
+	<array>
+		<string>0.000000, 0.000000, 595.000000, 146.000000, NO, NO</string>
+		<string>0.000000, 156.000000, 595.000000, 382.000000, NO, NO</string>
+	</array>
+	<key>NSSplitView Subview Frames NSColorPanelSplitView</key>
+	<array>
+		<string>0.000000, 0.000000, 224.000000, 258.000000, NO, NO</string>
+		<string>0.000000, 259.000000, 224.000000, 48.000000, NO, NO</string>
+	</array>
+	<key>NSTableView Columns LogViewerResults</key>
+	<array>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErB1NlcnZpY2WG
+		</data>
+		<string>19</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErAlRvhg==
+		</data>
+		<string>188</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErBEZyb22G
+		</data>
+		<string>193</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErBERhdGWG
+		</data>
+		<string>183</string>
+	</array>
+	<key>NSTableView Hidden Columns LogViewerResults</key>
+	<array/>
+	<key>NSTableView Sort Ordering LogViewerResults</key>
+	<array/>
+	<key>NSToolbar Configuration AdiumMessageWindow</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>2</integer>
+		<key>TB Is Shown</key>
+		<false/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration ContactList:1.0</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>2</integer>
+		<key>TB Is Shown</key>
+		<true/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration Log Viewer Toolbar</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>1</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<true/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration XtrasManager:Toolbar</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>1</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<true/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame NSColorPanel</key>
+	<string>0 81 224 278 0 0 1512 944 </string>
+	<key>NSWindow Frame NSFindPanel</key>
+	<string>1620 -96 528 182 1512 -218 1920 1175 </string>
+	<key>NSWindow Frame NSFontPanel</key>
+	<string>714 150 445 239 0 0 1512 944 </string>
+	<key>NSWindow Frame NSNavPanelAutosaveName</key>
+	<string>356 372 800 448 0 0 1512 944 </string>
+	<key>NSWindow Frame NSSpellCheckerSubstitutionsPanel2</key>
+	<string>2204 193 434 133 1512 -218 1920 1175 </string>
+	<key>NSWindow Frame Privacy Settings Window</key>
+	<string>307 490 313 138 0 0 1512 944 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>556 606 400 135 0 0 1512 944 </string>
+	<key>NSWindow Frame SUUpdateAlertFrame</key>
+	<string>468 409 575 398 0 0 1512 944 </string>
+	<key>NSWindow Frame authorizations</key>
+	<string>544 365 422 262 0 0 1512 944 </string>
+	<key>NSWindow Frame xtrasmanager</key>
+	<string>464 225 598 472 0 0 1512 944 </string>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUHasLaunchedBefore</key>
+	<true/>
+	<key>SULastCheckTime</key>
+	<date>2025-06-03T06:15:05Z</date>
+	<key>WebKitLocalStorageDatabasePathPreferenceKey</key>
+	<string>/Users/balg/Library/Application Support/Adium 2.0/Users/Default/LocalStorage</string>
+	<key>com.adiumX.adiumX_Preferences_Last_Pane_Defaults_Key</key>
+	<string>Messages</string>
+</dict>
+</plist>

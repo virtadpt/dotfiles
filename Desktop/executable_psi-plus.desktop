@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+# This is the spec version, *not* the application version
+Version=1.1
+Type=Application
+Name=Psi+
+GenericName=XMPP Client
+Comment=Communicate over the XMPP network
+Icon=psi-plus
+Exec=env QT_SCALE_FACTOR=1.25 psi-plus %U
+MimeType=x-scheme-handler/xmpp;
+Terminal=false
+X-KDE-StartupNotify=true
+StartupWMClass=Psi-plus
+Categories=Network;InstantMessaging;Qt;
+Keywords=XMPP;Jabber;Chat;InstantMessaging;
+Actions=SelectProfile;
+
+[Desktop Action SelectProfile]
+Exec=psi-plus --choose-profile
+Name=Start with another profile
+Icon=psi-plus

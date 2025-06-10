@@ -7,6 +7,6 @@ set softtabstop=4
 set shiftround
 set autoindent
 
-# I prefer using Pathogen but might not be able to do so all the time.
-#execute pathogen#infect()
+" I prefer using Pathogen but might not be able to do so all the time.
+"execute pathogen#infect()
 

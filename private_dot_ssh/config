@@ -1,0 +1,17 @@
+Host 		*
+Compression	yes
+ForwardX11	yes
+ConnectTimeout	3000
+ControlMaster	auto
+ControlPath     ~/.ssh/master-%C
+TCPKeepAlive	yes
+ForwardAgent	yes
+
+Host		*.onion
+ProxyCommand	socat STDIO SOCKS4A:127.0.0.1:%h:%p,socksport=9050
+#ProxyCommand    ncat --nodns --wait 300000ms --proxy 127.0.0.1:9050 --proxy-type socks5 %h %p
+ForwardX11	no
+
+HostkeyAlgorithms +ssh-rsa
+PubkeyAcceptedAlgorithms +ssh-rsa
+

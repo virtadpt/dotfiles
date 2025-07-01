@@ -31,3 +31,9 @@ Run `chezmoi diff` to get a diff-style outline of all of the file changes that w
 
 Run `chezmoi apply` to copy all of the files out of the repo into their proper places in your home directory.
 
+---
+
+The file dconf-dump-org-mate.txt is a dump of my Mate Desktop dconf settings, made with the command `dconf dump "/org/mate/" > dconf-dump-org-mate.txt`
+
+To load or restore them, use the command `dconf load "/org/mate? < dconf-dump-org-mate.txt`
+

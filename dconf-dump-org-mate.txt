@@ -149,7 +149,7 @@ popup-location='top_right'
 theme='nodoka'
 
 [panel/general]
-object-id-list=['notification-area', 'clock', 'window-list', 'object-0', 'object-1', 'object-2', 'object-3', 'object-4', 'object-5', 'object-6', 'object-7', 'object-8', 'object-9']
+object-id-list=['clock', 'object-0', 'object-2', 'object-4', 'object-5', 'object-6', 'object-7', 'object-8', 'object-9', 'object-1']
 toplevel-id-list=['bottom']
 
 [panel/objects/clock]
@@ -168,14 +168,6 @@ show-weather=false
 speed-unit='mph'
 temperature-unit='Fahrenheit'
 
-[panel/objects/notification-area]
-applet-iid='NotificationAreaAppletFactory::NotificationArea'
-locked=true
-object-type='applet'
-panel-right-stick=false
-position=1435
-toplevel-id='bottom'
-
 [panel/objects/object-0]
 custom-icon='/home/drwho/.icons/va_logo-64x64.png'
 has-arrow=false
@@ -189,24 +181,21 @@ use-custom-icon=true
 use-menu-path=true
 
 [panel/objects/object-1]
-applet-iid='MateXAppStatusAppletFactory::MateXAppStatusApplet'
+applet-iid='WnckletFactory::WindowListApplet'
+locked=true
 object-type='applet'
 panel-right-stick=false
-position=1876
+position=40
 toplevel-id='bottom'
 
 [panel/objects/object-2]
 applet-iid='MateXAppStatusAppletFactory::MateXAppStatusApplet'
+has-arrow=false
+locked=true
 object-type='applet'
 panel-right-stick=false
-position=1876
-toplevel-id='bottom'
-
-[panel/objects/object-3]
-applet-iid='MateXAppStatusAppletFactory::MateXAppStatusApplet'
-object-type='applet'
-panel-right-stick=false
-position=1876
+position=1417
+tooltip='Notification Area'
 toplevel-id='bottom'
 
 [panel/objects/object-4]
@@ -222,7 +211,7 @@ launcher-location='/usr/share/applications/mate-terminal.desktop'
 locked=true
 object-type='launcher'
 panel-right-stick=false
-position=1782
+position=1703
 toplevel-id='bottom'
 
 [panel/objects/object-6]
@@ -238,7 +227,7 @@ launcher-location='tilda.desktop'
 locked=true
 object-type='launcher'
 panel-right-stick=false
-position=1703
+position=1783
 toplevel-id='bottom'
 
 [panel/objects/object-8]
@@ -257,12 +246,8 @@ panel-right-stick=false
 position=1623
 toplevel-id='bottom'
 
-[panel/objects/window-list]
-applet-iid='WnckletFactory::WindowListApplet'
-locked=true
-object-type='applet'
-position=40
-toplevel-id='bottom'
+[panel/objects/workspace-switcher/prefs]
+display-workspace-names=true
 
 [panel/toplevels/bottom]
 expand=true
@@ -271,6 +256,10 @@ screen=0
 size=40
 y=1159
 y-bottom=0
+
+[panel/toplevels/bottom/background]
+color='rgba(255,255,255,0.319)'
+type='none'
 
 [power-manager]
 action-critical-battery='nothing'

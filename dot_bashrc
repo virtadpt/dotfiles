@@ -58,5 +58,5 @@ export VISUAL=/usr/bin/vim
 source /usr/share/git/completion/git-completion.bash
 
 # Set the $TZ environment variable to streamline things a little.
-export TZ='America/Los_Angeles'
+export TZ=":America/Los_Angeles"
 

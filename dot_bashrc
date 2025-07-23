@@ -17,7 +17,7 @@ alias pingscan='sudo nmap -sn -n -T4'
 alias holdmybeer='sudo'
 alias please='sudo'
 alias portscan='sudo nmap -sS -F -sV -O -T4 -v'
-alias df='df -x tmpfs'
+alias df='df -x tmpfs -x devtmpfs'
 alias ripgrep='rg'
 
 #PS1='[\u@\h:($WINDOW) \W]\$ '

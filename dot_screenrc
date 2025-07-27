@@ -29,15 +29,6 @@ screen -t "htop" htop
 # Terminal 1.
 screen -t "bwm-ng" bwm-ng -d -o curses2
 
-# Terminal 2.
-screen -t "iostat" iostat -d -h -s -z 1
-
-# Terminal 3.
-screen -t "iotop" iotop -d 5 -o -2 -6 -8
-
-# Terminal 4.
-screen -t "nvitop" nvitop
-
 # Start some shells.
 screen -t shell
 screen -t shell

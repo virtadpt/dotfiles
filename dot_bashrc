@@ -45,7 +45,7 @@ export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
 
 # How about some system stats?
-#fastfetch
+fastfetch
 
 # Add my cargo directory to the path.
 #export PATH="$PATH:$HOME/.cargo/bin"

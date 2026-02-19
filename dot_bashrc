@@ -22,8 +22,8 @@ alias ripgrep='rg'
 
 #PS1='[\u@\h:($WINDOW) \W]\$ '
 # {hh:mm:ss @ day-of-week mon day}
-# [username @ host ($WINDOW) dir]$ 
-export PS1="\[\033[38;5;220m\]{\[$(tput sgr0)\]\[\033[38;5;214m\]\t\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;75m\]@\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;220m\]\d}\[$(tput sgr0)\]\[\033[38;5;15m\]\n\[$(tput sgr0)\]\[\033[38;5;40m\][\u\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;75m\]@\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;40m\]\h:(`tmux display-message -p '#I'`)\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;40m\]\W]\[$(tput sgr0)\]\[\033[38;5;10m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
+# [username @ host (TMUX_PANE) dir]$ 
+export PS1="\[\033[38;5;220m\]{\[$(tput sgr0)\]\[\033[38;5;214m\]\t\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;75m\]@\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;220m\]\d}\[$(tput sgr0)\]\[\033[38;5;15m\]\n\[$(tput sgr0)\]\[\033[38;5;40m\][\u\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;75m\]@\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;40m\]\h:($TMUX_PANE)\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;40m\]\W]\[$(tput sgr0)\]\[\033[38;5;10m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 
 export PATH=$PATH:$HOME/bin
 export GOPATH=$HOME/go
@@ -54,8 +54,8 @@ fastfetch
 # change.
 #export PATH="$PATH:$HOME/.rvm/bin"
 
-[ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
-source /usr/share/git/completion/git-completion.bash
+#[ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
+#source /usr/share/git/completion/git-completion.bash
 
 # Set the $TZ environment variable to streamline things a little.
 export TZ=":America/Los_Angeles"

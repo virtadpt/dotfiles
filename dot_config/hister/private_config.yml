@@ -1,0 +1,40 @@
+app:
+    directory: /home/drwho/.local/share/hister
+    search_url: https://google.com/search?q={query}
+    log_level: info
+    debug_sql: false
+    open_results_on_new_tab: true
+server:
+    address: 127.0.0.1:4433
+    base_url: ""
+    database: db.sqlite3
+hotkeys:
+    web:
+        /: focus_search_input
+        '?': show_hotkeys
+        alt+enter: open_result_in_new_tab
+        alt+j: select_next_result
+        alt+k: select_previous_result
+        alt+o: open_query_in_search_engine
+        alt+v: view_result_popup
+        enter: open_result
+        tab: autocomplete
+    tui:
+        '?': toggle_help
+        ctrl+c: quit
+        d: delete_result
+        down: scroll_down
+        enter: open_result
+        esc: toggle_focus
+        j: scroll_down
+        k: scroll_up
+        q: quit
+        tab: toggle_focus
+        up: scroll_up
+sensitive_content_patterns:
+    aws_access_key: AKIA[0-9A-Z]{16}
+    aws_secret_key: (?i)aws(.{0,20})?(secret)?(.{0,20})?['"][0-9a-zA-Z\/+]{40}['"]
+    generic_private_key: '-----BEGIN ((RSA|EC|DSA) )?PRIVATE KEY-----'
+    github_token: (ghp|gho|ghu|ghs|ghr)_[a-zA-Z0-9]{36}
+    pgp_private_key: '-----BEGIN PGP PRIVATE KEY BLOCK-----'
+    ssh_private_key: '-----BEGIN OPENSSH PRIVATE KEY-----'

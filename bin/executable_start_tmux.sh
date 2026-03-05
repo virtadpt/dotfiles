@@ -11,6 +11,7 @@ tmux new-window -d -n "iotop" iotop -d 5 -o -2 -6 -8
 tmux new-window -d -n "nvitop" nvitop
 
 # Start up a few shells.
-tmux new-window
-tmux new-window
-tmux new-window
+tmux new-window bash --login
+tmux new-window bash --login
+tmux new-window bash --login
+

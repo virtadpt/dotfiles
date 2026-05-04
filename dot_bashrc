@@ -16,7 +16,7 @@ alias serve="python3 -mhttp.server"
 alias pingscan='sudo nmap -sn -n -T4'
 alias holdmybeer='sudo'
 alias please='sudo'
-alias portscan='sudo nmap -sS -F -sV -O -T4 -v'
+alias portscan='sudo nmap -sS -F -sV -O -T4 -v -Pn'
 alias df='df -x tmpfs -x devtmpfs'
 alias ripgrep='rg'
 
@@ -45,7 +45,7 @@ export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
 
 # How about some system stats?
-fastfetch
+#fastfetch
 
 # Add my cargo directory to the path.
 #export PATH="$PATH:$HOME/.cargo/bin"
@@ -59,4 +59,8 @@ fastfetch
 
 # Set the $TZ environment variable to streamline things a little.
 export TZ=":America/Los_Angeles"
+
+# Because my usual terminal of choice rarely has a termcap entry, have this
+# sitting around just in case.
+#export TERM=xterm
 

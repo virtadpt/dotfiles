@@ -44,15 +44,16 @@ export NEXT_TELEMETRY_DISABLED=1
 export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
 
+# Needed to kick Firefox, et al into Wayland app mode.
+# I have this set in the appropriate .desktop files but I'm leaving it here
+# for reference.
+#export MOZ_ENABLE_WAYLAND=1
+
 # How about some system stats?
 #fastfetch
 
 # Add my cargo directory to the path.
 #export PATH="$PATH:$HOME/.cargo/bin"
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable
-# change.
-#export PATH="$PATH:$HOME/.rvm/bin"
 
 #[ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
 #source /usr/share/git/completion/git-completion.bash

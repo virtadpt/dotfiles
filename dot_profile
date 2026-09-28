@@ -40,5 +40,5 @@ export TZ='America/Los_Angeles'
 export PATH="$HOME/.local/bin:$PATH"
 
 # How about some system stats?
-fastfetch
+#fastfetch --disable-linewrap
 

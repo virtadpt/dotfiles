@@ -36,8 +36,8 @@ alias mp3-dl='yt-dlp -x --audio-format mp3'
 # Set the $TZ environment variable to streamline things a little.
 export TZ='America/Los_Angeles'
 
-# Pull the uv environment stuff in for later.
-. "$HOME/.local/bin/env"
+# Needed for uv.
+export PATH="$HOME/.local/bin:$PATH"
 
 # How about some system stats?
 fastfetch

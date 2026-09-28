@@ -60,3 +60,7 @@ fastfetch
 # Set the $TZ environment variable to streamline things a little.
 export TZ=":America/Los_Angeles"
 
+# Needed for uv.
+export PATH="$HOME/.local/bin:$PATH"
+
+
